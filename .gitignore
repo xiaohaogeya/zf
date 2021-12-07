@@ -10,6 +10,7 @@
 
 # production
 /frontend/hkzf-mobile/build
+/backend/config/mysql.js
 
 # misc
 .DS_Store

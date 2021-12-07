@@ -39,7 +39,7 @@ axios.interceptors.response.use(response => {
 
     //根据返回不同的状态码做不同的事情
     // 这里一定要和后台开发人员协商好统一的错误状态码
-    const {data, status} = response
+    const {status} = response
     if (status) {
         switch (status) {
             case 200:
